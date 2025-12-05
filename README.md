@@ -34,6 +34,17 @@ npm run dev
 
 The app should open automatically in your browser, usually at `http://localhost:5173`
 
+## Running tests
+
+To run the frontend tests:
+
+```bash
+cd Client
+npm test              # Run tests in watch mode
+npm run test:ui       # Run tests with UI
+npm run test:coverage # Run tests with coverage report
+```
+
 ## What's included
 
 - RESTful API with in-memory storage
@@ -41,3 +52,4 @@ The app should open automatically in your browser, usually at `http://localhost:
 - Dark neobrutalism design with Tailwind CSS
 - Clean architecture (Domain, Application, Persistence, API layers)
 - Sample data seeded on startup
+- Unit tests for React components (Vitest + React Testing Library)
